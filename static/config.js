@@ -24,11 +24,11 @@ var CONFIG = {
   editCommand: '_edit',
   dataFields: [{ name: 'Location', type: 'text' }],
   personProperties: [
-    { name: 'Phone', type: 'text', order: 0 },
-    { name: 'Email', type: 'email', order: 1 },
-    { name: 'Homepage', type: 'url', order: 2 },
-    { name: 'Country', type: 'text', order: 3 },
-    { name: 'City', type: 'text', order: 4 },
-    { name: 'Street', type: 'text', order: 5 }
+    { name: 'Telefone', type: 'text', order: 0 },
+    { name: 'Email', type: 'email', order: 1 }
+    /*{ name: 'Website', type: 'url', order: 2 },
+      { name: 'Pais', type: 'text', order: 3 },
+    { name: 'Cidade', type: 'text', order: 4 },
+    { name: 'Rua', type: 'text', order: 5 }*/
   ]
 }

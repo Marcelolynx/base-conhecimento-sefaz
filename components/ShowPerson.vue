@@ -26,19 +26,12 @@
                   td.prop.must {{uiNames.person.name}}*
                   td.val
                     input.val1(v-model='employeeName')
-              tr
-                template(v-if='!editMode')
-                  td.prop {{uiNames.person.id}}
-                  td.val {{employeeID}}
-                template(v-else)
-                  td.prop.must {{uiNames.person.id}}*
-                  td.val
-                    input.val1(v-model='employeeID')
+
               tr
                 td.prop {{uiNames.person.function}}
                 td.val(v-if='!editMode') {{employeeFunctionName}}
                 td.val(v-else)
-                  input.val1(v-model='employeeFunctionName') 
+                  input.val1(v-model='employeeFunctionName')
 
               tr(v-for="prop in config.personProperties")
                 td.prop {{prop.name}}
@@ -49,18 +42,18 @@
                     span(v-else) {{getPropName(prop)}}
                   template(v-else)
                     input(type="text" :value="getPropName(prop)" @input="setPropName(prop, $event.target.value)")
-           
-             
+
+
             tr(v-if="!showPerson.new")
               td.prop {{uiNames.person.departments}}
               td.val
-                .dep(v-for='assignment in personAssignments' @click='gotoDepartment(assignment.department)') 
-                  span {{assignment.department.name}}  
+                .dep(v-for='assignment in personAssignments' @click='gotoDepartment(assignment.department)')
+                  span {{assignment.department.name}}
                   span.role {{assignment.role}}
         div
           button.btn1(v-if="showPerson.new" @click='addEmployee(showPerson)' :disabled='!employeeID || !employeeName') ADD
           button.btn2(v-if="editMode" @click='deleteEmployee1(showPerson)' title='Removes the user from all departments and completely deletes the user') Delete this user
-   
+
 </template>
 
 <script>
