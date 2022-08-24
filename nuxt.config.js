@@ -5,6 +5,9 @@ module.exports = {
   ssr: false,
   // change router for github pages
   router: { mode: 'hash' },
+  generate: {
+    dir: 'public'
+  },
   /*
   ** Headers of the page
   */
