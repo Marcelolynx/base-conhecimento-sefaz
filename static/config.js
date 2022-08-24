@@ -18,7 +18,7 @@ var CONFIG = {
     '#FFFFFF',
     '#05668d',
     '#0071BA',
-    '#8d2305',
+    '#D9DF39',
     '#cfb303'
   ],
   editCommand: '_edit',
