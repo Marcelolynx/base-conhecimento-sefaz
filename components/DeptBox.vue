@@ -295,7 +295,7 @@ export default {
 .hidden_dept {
   bottom: 10px;
   right: 1px;
-  width: 14px;
+  width: 25px;
   color: grey;
   font-size: 12px;
   padding: 0px 2px;
@@ -309,7 +309,7 @@ export default {
   cursor: pointer;
 }
 .hidden_parents1 {
-  left: 50px;
+  left: 150px;
 }
 .nophoto {
   font-size: 52px;
@@ -327,10 +327,12 @@ export default {
 }
 .material-icons.arrow {
   position: absolute;
-  bottom: -5px;
+  bottom: -60px;
 }
+
 .hidden_dept {
   position: absolute;
-  bottom: 5px;
+  bottom: -48px;
+  color: white;
 }
 </style>
