@@ -202,8 +202,8 @@ export default {
 }
 .drill0,
 .ppl_count0 {
+  max-height: 60px;
   position: absolute;
-  height: 100%;
   width: 100%;
 }
 .ppl_custom {
@@ -322,6 +322,8 @@ export default {
   padding: 5px 10px;
   border-radius: 3px;
   position: relative;
+  max-height: 63px;
+  max-width: 100%;
 }
 .material-icons.arrow {
   position: absolute;

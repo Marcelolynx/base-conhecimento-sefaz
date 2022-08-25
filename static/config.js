@@ -11,7 +11,7 @@ var CONFIG = {
     columnview: false,
     staffColumnview: false,
     showNrDepartments: true,
-    showNrPeople: false
+    showNrPeople: true
   },
   enableScreenCapture: true,
   levelColors: [

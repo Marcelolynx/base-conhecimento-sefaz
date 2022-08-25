@@ -565,12 +565,12 @@ var INPUT_DATA = {
       photo: 'B01',
       functionName: 'Secretario de Estado e Fazenda.',
       fields: {
-        Email: 'bigbos@someaddress.nl',
-        Phone: '0345-394930203',
-        Homepage: 'nu.nl',
-        Country: 'Netherlands',
-        City: 'Amsterdam',
-        Street: 'Kalverstraat 1'
+        Email: 'email@sefaz.ms.gov.br',
+        Phone: '67 3318-3204',
+        Homepage: 'https://www.sefaz.ms.gov.br/',
+        Country: 'Brasil',
+        City: 'Campo Grande',
+        Street: 'RUA DELEGADO OSMAR DE CAMARGO SN - JARDIM VERANEIO'
       }
     },
     {
@@ -593,7 +593,7 @@ var INPUT_DATA = {
       photo: 'B03',
       functionName: 'HR',
       fields: {
-        Email: '',
+        Email: 'gsantos@fazenda.ms.gov.br',
         Phone: '',
         Homepage: 'https://www.sefaz.ms.gov.br',
         Country: 'Brasil',
